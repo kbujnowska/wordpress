@@ -1,0 +1,139 @@
+/*
+Theme Name: Twenty Seventeen
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Seventeen brings your site to life with immersive featured images and subtle animations. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* body {
+    height: 10000px;
+} */
+
+
+
+img {
+    max-width: 100%;
+}
+
+/*MENU*/
+.navbar {
+    background: rgba(255, 255, 255, 0.4);
+
+
+    /* for latest browsers */
+    /* background: #000; */
+    /* fallback for older browsers */
+}
+
+
+.nav-link {
+    color: black !important;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid red;
+}
+
+/*BOX FRESH*/
+/* 
+.col-md-4 h1 {
+    margin-left: 100px;
+    margin-top: 300px;
+}
+
+.col-md-4 p {
+
+    margin-left: 100px;
+}
+
+.col-md-8 h1 {
+    text-align: center;
+
+} */
+
+/*stopka*/
+.container-footer {
+    /* position: fixed; */
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+}
+
+/* 
+.post-10 {
+    background-color: tomato;
+    padding: 20px;
+} */
+
+.parallax-window {
+    min-height: 800px;
+    background: transparent;
+}
+
+.parallax-window h2 {
+    position: absolute;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 2px white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.box {
+    /* margin-top: 10px; */
+    /* padding-top: 1px; */
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+
+    background-color: #E3E3E3;
+}
+
+
+
+.box-part .fa:hover {
+    transform: scale(1.2);
+    z-index: 0;
+}
+
+.col-lg-12 {
+    background-color: #E3E3E3;
+    width: 100%;
+
+    padding-bottom: 50px;
+}
+
+.text-center {
+    padding-top: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: white;
+}
